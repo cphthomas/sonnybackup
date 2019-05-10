@@ -78,9 +78,10 @@ indeks <<- data.frame(BEGREB,forklaring)
 # Retskilder retssystemet og juridisk-metode
 
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, results='asis'}
 cat(readLines('np.html'))
 ```
+
 
 
 ## Grundloven om Danmarks forfatning
